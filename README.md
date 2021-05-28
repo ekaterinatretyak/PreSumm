@@ -1,12 +1,12 @@
-Neural generation of Russian news headlines with abstractive text summarization approach.
+# Neural generation of Russian news headlines using abstractive text summarization approach  <img src="https://assets.website-files.com/5e77aebfc78e1c7a72b9201b/5ecfce32a80336a92e83b544_icon_subscribe_plane_animation_starts-with-quartplane.gif" width="70px">
 
 The code is taken from: https://github.com/leshanbog/PreSumm
 
-We also present the new Bumaga dataset and reach BLEU score 48.51, ROUGE-1 score 44.1 and ROUGE-mean 38.3 on it.
+We also present the new Bumaga dataset and reach BLEU score 48.51, ROUGE-1 score 44.1 and ROUGE-mean 38.3 on it. 
 
 ### Description of the Bumaga dataset
 
-The dataset contains 38 499 Russian language news texts with headlines from 28.06.2013 to 31.03.2021.
+The dataset contains 38 499 Russian language news texts with headlines published on the [Bumaga's](https://paperpaper.ru/) website from 28.06.2013 to 31.03.2021.
 
 The dataset is available in CSV and JSON formats. The dataset consists of 4 fields: `URL` of the news article, `date` of the news article, `text` which is a body of the news article and `title` which is a news headline. Dataset splits are also proposed.
 
