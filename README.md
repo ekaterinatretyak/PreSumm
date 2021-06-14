@@ -10,11 +10,11 @@ The dataset contains 38 499 Russian language news texts with headlines published
 
 The dataset is available in CSV and JSON formats. The dataset consists of 4 fields: `URL` of the news article, `date` of the news article, `text` which is a body of the news article and `title` which is a news headline. Dataset splits are also proposed.
 
-   :small_orange_diamond: Bumaga original dataset in JSON:
+   :small_orange_diamond: Bumaga original dataset in [JSON](https://www.dropbox.com/s/mq3bemyc3jdpr2z/bumaga.json?dl=0)
 
-   :small_orange_diamond: Bumaga original dataset in CSV: 
+   :small_orange_diamond: Bumaga original dataset in [CSV](https://www.dropbox.com/s/ib9xv1pt2xrct61/bumaga.csv?dl=0)
 
-   :small_orange_diamond: Bumaga train/val/test: 
+   :small_orange_diamond: Bumaga [train/val/test](https://www.dropbox.com/s/6oxdb52l029zt5l/bumaga_shuf.zip?dl=0) 
 
 
 ### Trained on the RIA model
