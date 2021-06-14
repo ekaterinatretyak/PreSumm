@@ -24,7 +24,7 @@ BertSumAbs checkpoint: https://yadi.sk/d/2jcjmdEXp0EX-Q
 
 ### Data Preprocessing
 
-The authors of [Advances of Transformer-Based Models for News Headline Generation](https://arxiv.org/abs/2007.05044) use [RuBERT](http://docs.deeppavlov.ai/en/master/features/models/bert.html) from DeepPavlov:  as a pretrained BERT.
+The authors of [Advances of Transformer-Based Models for News Headline Generation](https://arxiv.org/abs/2007.05044) use [RuBERT](http://docs.deeppavlov.ai/en/master/features/models/bert.html) from DeepPavlov as a pretrained BERT.
 
 ```
 python3 /PreSumm/src/convert_to_presumm.py --config-path /PreSumm/src/readers/configs/ria_reader_config.json --file-path ~/dataset/bumaga_shuf_train.json --save-path ~/dataset/bumaga_shuf_bert/train.bert.pt --bert-path ~/models/rubert_cased_L-12_H-768_A-12_pt
